@@ -4,8 +4,8 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pi
 
 // ─── Supabase client ──────────────────────────────────────────────────────────
 const supabase = createClient(
-  import.meta.env.VITE_SUPABASE_URL,
-  import.meta.env.VITE_SUPABASE_ANON_KEY
+  "https://jjmihwmtjofiwwcsprtt.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpqbWlod210am9maXd3Y3NwcnR0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM4NjU2NjEsImV4cCI6MjA4OTQ0MTY2MX0.iqzoGnTyF44WL5W2KNAjvStwONlwIlamSk_1Qkvqxz4"
 );
 
 // ─── DB helpers ───────────────────────────────────────────────────────────────
